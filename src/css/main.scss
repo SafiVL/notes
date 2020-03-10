@@ -1,0 +1,41 @@
+.sidebar {
+  width: 300px;
+  border-right: 1px solid black;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+
+  .note {
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    padding: 13px;
+
+    .title {
+      font-size: 24px;
+      margin: 0px;
+      text-align: left;
+
+    }
+    .desc {
+      text-align: left;
+      margin: 0px;
+    }
+    .date {
+      font-size: 9px;
+      color: #8d8d8d;
+      text-align: right;
+      margin-left: auto;
+      display: block;
+    }
+  }
+}
+
+.main {
+  margin-left: 300px;
+
+}
+body {
+  margin: 0px;
+}
+
+
