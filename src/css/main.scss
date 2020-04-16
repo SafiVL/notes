@@ -5,10 +5,19 @@
   bottom: 0;
   top: 0;
 
+  .add-note {
+    cursor: pointer;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    font-weight: bold;
+  }
+
   .note {
     border-bottom: 1px solid black;
     border-left: 1px solid black;
     padding: 13px;
+    padding-bottom: 18px;
 
     .title {
       font-size: 24px;
@@ -19,19 +28,34 @@
     .desc {
       text-align: left;
       margin: 0px;
+      font-size: 13px;
+      margin-bottom: 5px;
     }
+
+    .delete {
+      color: red;
+      text-align: left;
+      font-size: 10px;
+      float: left;
+    }
+
     .date {
       font-size: 9px;
       color: #8d8d8d;
       text-align: right;
       margin-left: auto;
       display: block;
+      float: right;
     }
   }
 }
 
 .main {
   margin-left: 300px;
+
+  textarea {
+    width: 100%
+  }
 
 }
 body {
