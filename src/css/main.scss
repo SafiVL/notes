@@ -51,12 +51,18 @@
 }
 
 .main {
-  margin-left: 300px;
+  margin-left: 310px;
+  margin-right: 10px;
 
-  textarea {
-    width: 100%
+  label {
+    float: left;
+    font-size: 11px;
+    color: #777777;
   }
 
+  textarea, input {
+    width: 100%
+  }
 }
 body {
   margin: 0px;
